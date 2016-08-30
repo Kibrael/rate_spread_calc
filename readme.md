@@ -11,4 +11,16 @@ The calculator currently runs in a Jupyter notebook. CLI is TBD.
 - **lock_date**: a string object in format '2015-08-29' indicating the date the interest rate was locked in
 - lien: the lien status of the loan, valid values are 1, 2, 3, 4 (only 1 and 2 will return a rate spread, 3 and 4 return NA)
 - **amort**: a string indicating the amortization type of the loand (valid values are 'fixed' and 'variable')
-- **apr**: the APR of the loan as determined by the applicable regulations
+- **apr**: the APR of the loan as determined by the applicable regulations  
+
+  
+**The prototype calculator requires the following:**
+- Python 3
+- The latest version of [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
+- Pandas 1.181
+- Local copies of the fixed and adjustable rate APOR tables
+
+**To run the calculator:**
+- Load Jupyter notebooks in the directory containing the repository clone
+- Run every cell prior to the testing area
+- Test the function calls with desired inputs
